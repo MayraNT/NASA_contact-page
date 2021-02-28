@@ -1,13 +1,65 @@
-main {
-    font-family: 'PT Sans', sans-serif;
-    background: #E6E6E6;
+body {
+    width: 850px;
+    margin: 0 auto;
 }
 
-h1, h3 {
+main {
+    height: 450px;
+    background-image: url(NASAimg.jpg);
+    color: white;
+    font-size: 38px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+h1, h3, .button {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    font-size: 80px;
+section {
+    height: 324px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px; 
+    background: #E6E6E6;
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    width: 270px;
+    height: 324px;
+    padding: 10px 15px 10px 30px;
+}
+
+.social, .office {
+    line-height: 20pt;
+}
+
+.contact {
+    line-height: 18pt;
+}
+
+#name-input {
+    width: 215px;
+    height: 23px;
+    border: none;
+}
+
+#message-area {
+    width: 215px;
+    height: 60px;
+    border: none;
+}
+
+.button {
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #4d4d4d;
     color: white;
+    font-size: medium;
+    border: none;
 }

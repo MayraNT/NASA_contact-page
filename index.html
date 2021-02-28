@@ -10,20 +10,22 @@
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 </head>
-<body>
-        <header class="space-container">
-            <h1 class="centered">NASA</h1>
-            <img src="NASAimg.jpg" alt="milky way galaxy">
-        </header>
+<body>    
         <main>
+            <h1>NASA</h1>
+        </main>
+        <section>
             <article class="social">
                 <h3>Social Media</h3>
-                <ul>
-                    <li>Twitter - @nasa</li>
-                    <li>Facebook - fb.com/nasa</li>
-                    <li>Instagram - @nasa</li>
-                    <li>Youtube - youtube.com/NASA</li>
-                </ul>
+                <p>
+                    Twitter - @nasa
+                    <br>
+                    Facebook - fb.com/nasa
+                    <br>
+                    Instagram - @nasa
+                    <br>
+                    Youtube - youtube.com/NASA
+                </p>
             </article>
             <article class="office">
                 <h3>OFFICE INFO</h3>
@@ -38,12 +40,12 @@
                 <h3>CONTACT US</h3>
                 <form>
                     <label>Name</label>
-                    <br><input type="text">
+                    <br><input id="name-input" type="text">
                     <br><label>Message</label>
-                    <br><textarea></textarea>
-                    <br><button>Send</button>
+                    <br><textarea id="message-area"></textarea>
+                    <br><input type="submit" value="send" class="button">
                 </form>
             </article>
-        </main>
+        </section>
 </body>
 </html>

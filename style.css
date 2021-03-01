@@ -42,13 +42,13 @@ article {
     line-height: 18pt;
 }
 
-#name-input {
+#name {
     width: 215px;
     height: 23px;
     border: none;
 }
 
-#message-area {
+#message {
     width: 215px;
     height: 60px;
     border: none;
